@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    border: none;
+    font-family: Tahoma;
+}
+/* start header */
+.header{
+    width: 100vw;
+    height: 60px;
+    background-color: #FF3333;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header .header-content{
+    position: relative;
+    width: 80%;
+    height: inherit;
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .header-content div{
+    height: auto;
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto ;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* end header */
+
+/* start body */
+.body{
+    width: 80vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFF99;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    min-height: calc(100vh - 160px);
+}
+
+.tool{
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.tool-exchange{
+    width: 49%;
+}
+
+.title-form{
+    width: fit-content;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 14px;
+    align-items: center;
+}
+
+.item-form .title-item-form{
+    min-width: 200px;
+    margin-right: 10px;
+    height: fit-content;
+}
+
+.item-form .input-item-form,.selector-item-form{
+    min-width: calc(100% - 210px);
+    height: 30px;
+}
+
+.input-item-form input{
+    height: inherit;
+    width: calc(100% - 24px);
+    padding: 0px 12px;
+}
+
+.selector-item-form select{
+    height: inherit;
+    width: calc(100%);
+    padding: 6px 12px;
+}
+
+.button-form{
+    margin-top: 14px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #0099FF;
+}
+
+.note{
+    width: 49%;
+}
+
+.guide{
+    margin-bottom: 20px;
+}
+
+.table-currency{
+    width: calc(100% - 50px);
+    position: relative;
+    padding: 25px;
+}
+
+.control-table-currency{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.title-table-currency{
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons-control{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-control{
+    padding: 4px 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: #008800;
+    color: white;
+}
+
+.input-filter{
+    height: 30px;
+    min-width: 150px;
+    padding: 0px 12px;
+}
+
+.input-page{
+    height: 30px;
+    min-width: 50px;
+    max-width: 50px !important;
+    padding: 0px 12px;
+    margin-left: 15px;
+}
+
+.div-table-currency-content{
+    margin-top: 20px;
+    min-width: 100%;
+    max-width: 100%;
+    overflow: scroll !important;
+}
+
+.table-currency-content{
+    min-width: 1550px;
+}
+
+.table-currency-common-content{
+    min-width: 1550px;
+}
+
+table,td,th{
+    border:1px solid gray;
+    border-collapse: collapse;
+}
+
+input,select{
+    border-radius: 5px;
+}
+
+td, th{
+    padding: 4px 8px;
+}
+
+
+/* end body */
+
+/* start footer */
+.footer{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    color: wheat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* end footer */
+
+
+/* common */
+.col-text-left{
+    text-align: left;
+}
+.col-text-right{
+    text-align: right;
+}
+
+.col-text-center{
+    text-align: center;
+}
+.width-70{
+    min-width: 70px;
+}
+
+.width-100{
+    min-width: 100px;
+}
+.width-150{
+    min-width: 150px;
+}
+
+.width-200{
+    min-width: 200px;
+}
+
+.width-250{
+    min-width: 250px;
+}
+
+.width-400{
+    min-width: 400px;
+}
+
+.width-300{
+    min-width: 300px;
+}
+
+.row-bold{
+    background-color: burlywood;
+}

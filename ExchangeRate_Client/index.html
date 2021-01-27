@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BK-ExchangeRate</title>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-content">
+                <div>
+                    BK-EXCHANGERATE - TIỆN ÍCH - NHANH CHÓNG - CHÍNH XÁC
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="tool">
+                <div class="tool-exchange">
+                    <div class="title-form">
+                        CÔNG CỤ CHUYỂN ĐỔI
+                    </div>
+                    <div class="item-form">
+                        <div class="title-item-form">
+                            TỪ LOẠI TIỀN TỆ
+                        </div>
+                        <div class="selector-item-form">
+                            <select name="fromCur">
+                                <option value="">A</option>
+                                <option value="" selected>B</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="item-form">
+                        <div class="title-item-form">
+                            SANG LOẠI TIỀN TỆ
+                        </div>
+                        <div class="selector-item-form">
+                            <select name="toCur">
+                                <option>A</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="item-form">
+                        <div class="title-item-form">
+                            SỐ LƯỢNG
+                        </div>
+                        <div class="input-item-form">
+                            <input name="fromMoney" type="number" min="0">
+                        </div>
+                    </div>
+                    <div class="item-form">
+                        <div class="title-item-form">
+                            KẾT QUẢ
+                        </div>
+                        <div class="input-item-form">
+                            <input name="moneyExchange" type="number" readonly>
+                        </div>
+                    </div>
+                    <div class="button-form">
+                        XEM KẾT QUẢ
+                    </div>
+                </div>
+                <div class="note">
+                    <div class="guide">
+                        <h3>
+                            CÁC BƯỚC SỬ DỤNG
+                        </h3>
+                        <ul>
+                            <li>CHỌN LOẠI TIỀN TỆ MUỐN ĐỔI</li>
+                            <li>CHỌN LOẠI TIỀN TỆ CẦN ĐỔI SANG</li>
+                            <li>NHẬP SỐ LƯỢNG TIỀN CẦN ĐỔI (SỐ TIỀN LỚN HƠN HOẶC BẰNG 0)</li>
+                            <li>NHẤN NÚT XEM KẾT QUẢ ĐỂ NHẬN KẾT QUẢ</li>
+                        </ul>
+                    </div>
+                    <div class="info-bonus">
+                        <h3>LƯU Ý</h3>
+                        <div>
+                            THÔNG TIN MANG TÍNH THAM KHẢO NỀN CẦN XÁC NHẬN LẠI TẠI CƠ SỞ ĐỔI TIỀN CHÍNH THỨC CỦA CÁC NGÂN HÀNG HOẶC CÁC CƠ QUAN THUẾ/HẢI QUAN NHÀ NƯỚC
+                        </div>
+                        <div>
+                            DỮ LIỆU ĐƯỢC CẬP NHẬT 12H MỘT LẦN. CỤ THỂ VÀO CÁC MỐC THỜI GIAN TRONG NGÀY LÀ 6H VÀ 18H!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-currency">
+                <div class="control-table-currency">
+                    <div class="title-table-currency">
+                        CÁC LOẠI TIỀN TỆ THÔNG DỤNG
+                    </div>
+                </div>
+
+                <div class="div-table-currency-content">
+                    <table class="table-currency-common-content">
+                        <thead>
+                            <th class="col-text-center width-70">ID</th>
+                            <th class="col-text-center width-200">MÃ QUỐC TẾ (ISO 4217)</th>
+                            <th class="col-text-center width-100">MÃ SỐ</th>
+                            <th class="col-text-left width-300">TÊN TIỀN TỆ</th>
+                            <th class="col-text-left width-400">QUỐC GIA PHÁT HÀNH</th>
+                            <th class="col-text-right width-250">TỈ GIÁ SO VỚI 1 ĐÔ LA MỸ</th>
+                            <th class="col-text-right width-200">SỐ TIỀN QUY ĐỔI</th>
+                        </thead>
+                        <tbody>
+                            <tr class="row-bold">
+                                <td class="col-text-center width-70">1</td>
+                                <td class="col-text-center width-100">VND</td>
+                                <td class="col-text-center width-100">000</td>
+                                <td class="col-text-left width-300">Viet nam dong</td>
+                                <td class="col-text-left width-400">Viet Nam</td>
+                                <td class="col-text-right width-250">23000</td>
+                                <td class="col-text-right width-200">0</td>
+                            </tr>
+                            <tr>
+                                <td class="col-text-center width-70">1</td>
+                                <td class="col-text-center width-100">VND</td>
+                                <td class="col-text-center width-100">000</td>
+                                <td class="col-text-left width-300">Viet nam dong</td>
+                                <td class="col-text-left width-400">Viet Nam</td>
+                                <td class="col-text-right width-250">23000</td>
+                                <td class="col-text-right width-200">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="table-currency">
+                <div class="control-table-currency">
+                    <div class="title-table-currency">
+                        CÁC LOẠI TIỀN TỆ KHÁC
+                    </div>
+                    <div class="buttons-control">
+                        <div>
+                            <input class="input-filter" type="text" placeholder="TÌM KIẾM">
+                        </div>
+                        <div class="button-control button-first-page">TRANG ĐẦU</div>
+                        <div class="button-control button-prev-page">TRANG TRƯỚC</div>
+                        <div>
+                            <input class="input-page" type="text" value ="1" readonly> <span>CỦA</span> <span id="maxPage"></span>
+                        </div>
+                        <div class="button-control button-next-page">TRANG TIẾP</div>
+                        <div class="button-control button-last-page">TRANG CUỐI</div>
+                    </div>
+                </div>
+
+                <div class="div-table-currency-content">
+                    <table class="table-currency-content">
+                        <thead>
+                            <th class="col-text-center width-70">ID</th>
+                            <th class="col-text-center width-200">MÃ QUỐC TẾ (ISO 4217)</th>
+                            <th class="col-text-center width-100">MÃ SỐ</th>
+                            <th class="col-text-left width-300">TÊN TIỀN TỆ</th>
+                            <th class="col-text-left width-400">QUỐC GIA PHÁT HÀNH</th>
+                            <th class="col-text-right width-250">TỈ GIÁ SO VỚI 1 ĐÔ LA MỸ</th>
+                            <th class="col-text-right width-200">SỐ TIỀN QUY ĐỔI</th>
+                        </thead>
+                        <tbody>
+                            <tr class="row-bold">
+                                <td class="col-text-center width-70">1</td>
+                                <td class="col-text-center width-100">VND</td>
+                                <td class="col-text-center width-100">000</td>
+                                <td class="col-text-left width-300">Viet nam dong</td>
+                                <td class="col-text-left width-400">Viet Nam</td>
+                                <td class="col-text-right width-250">23000</td>
+                                <td class="col-text-right width-200">0</td>
+                            </tr>
+                            <tr>
+                                <td class="col-text-center width-70">1</td>
+                                <td class="col-text-center width-100">VND</td>
+                                <td class="col-text-center width-100">000</td>
+                                <td class="col-text-left width-300">Viet nam dong</td>
+                                <td class="col-text-left width-400">Viet Nam</td>
+                                <td class="col-text-right width-250">23000</td>
+                                <td class="col-text-right width-200">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>BẢN QUYỀN THUỘC VỀ <span>BK-EXCHANGERATE</span></div>
+            <div>XIN CẢM ƠN VÌ ĐÃ SỬ DỤNG DỊCH VỤ NÀY! MỌI Ý KIẾN ĐÓNG GÓP VUI LÒNG GỬI VÀO HÒM THƯ <span>bk.exchangerate@gmail.com</span></div>
+        </div>
+    </body>
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/index.js"></script>
+</html>
